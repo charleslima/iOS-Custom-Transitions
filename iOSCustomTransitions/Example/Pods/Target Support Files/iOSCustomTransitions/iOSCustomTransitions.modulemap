@@ -1,0 +1,6 @@
+framework module iOSCustomTransitions {
+  umbrella header "iOSCustomTransitions-umbrella.h"
+
+  export *
+  module * { export * }
+}

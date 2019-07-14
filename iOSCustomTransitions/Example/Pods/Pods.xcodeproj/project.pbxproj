@@ -1,0 +1,792 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0FA08441E127FFE78428581C96D0ACA2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		219074D0A78F12DD6CAB55CD2C5BD025 /* Pods-iOSCustomTransitions_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A083D2D4B78E56640D9F5420D5369EC /* Pods-iOSCustomTransitions_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C3EA84430E2101C5387BF933DCA18CC /* iOSCustomTransitions-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A2654CF5EBC04F4C686FC19725413F36 /* iOSCustomTransitions-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2DFADB6F6D9AE08DC26D2E64235E2291 /* iOSCustomTransitions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB8A6C6232E3DC4A825F49CD3DA80F8 /* iOSCustomTransitions-dummy.m */; };
+		61C6B39710747F976C9678D5FF61A899 /* Pods-iOSCustomTransitions_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C29F7A6DE6A436383B9F211F54562DB9 /* Pods-iOSCustomTransitions_Example-dummy.m */; };
+		6D95B6650459EE055F9DC0C5B736F4B9 /* Pods-iOSCustomTransitions_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A60D240881E3917CA42EF9E53FF7DF5 /* Pods-iOSCustomTransitions_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		879D511D22DBE71300F6C03A /* BubbleDismissAnimatorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879D511822DBE71300F6C03A /* BubbleDismissAnimatorController.swift */; };
+		879D511E22DBE71300F6C03A /* BubblePresentAnimatorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879D511922DBE71300F6C03A /* BubblePresentAnimatorController.swift */; };
+		879D511F22DBE71300F6C03A /* ZoomingDismissAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879D511A22DBE71300F6C03A /* ZoomingDismissAnimator.swift */; };
+		879D512022DBE71300F6C03A /* ZoomingTransitionStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879D511B22DBE71300F6C03A /* ZoomingTransitionStyle.swift */; };
+		879D512122DBE71300F6C03A /* ZoomingPresentAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879D511C22DBE71300F6C03A /* ZoomingPresentAnimator.swift */; };
+		AE34BA22BAB9BB31535C5397B8CBF563 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		DE0DE0466F82C0DCF1CC4A33B71E8225 /* Pods-iOSCustomTransitions_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E349B6628B5E308D7E30DF9284BB600 /* Pods-iOSCustomTransitions_Tests-dummy.m */; };
+		E6358D9EC0E9258AC1EB4D324780B1A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		610549840E9E2B033FD50044E169A5FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F0D310BB905DC6A9211C8F654CC742A;
+			remoteInfo = iOSCustomTransitions;
+		};
+		D74AB7AB93613F9D816C0B1FB15486AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51D690D55008A0C55737FB75D0481528;
+			remoteInfo = "Pods-iOSCustomTransitions_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A60D240881E3917CA42EF9E53FF7DF5 /* Pods-iOSCustomTransitions_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iOSCustomTransitions_Example-umbrella.h"; sourceTree = "<group>"; };
+		0F4A89720286680616C2F952FA7E452C /* Pods_iOSCustomTransitions_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSCustomTransitions_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		15D256043C5E09984253DFCB1EAD21FF /* Pods-iOSCustomTransitions_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOSCustomTransitions_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		42F5DC93D149F3C4EB624BCC174911CC /* Pods-iOSCustomTransitions_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOSCustomTransitions_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		4D5223D78CE51E285AF2BA38EF192530 /* iOSCustomTransitions-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iOSCustomTransitions-prefix.pch"; sourceTree = "<group>"; };
+		51F1590A459A9EACCCED47B53EF5B1D5 /* iOSCustomTransitions.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = iOSCustomTransitions.modulemap; sourceTree = "<group>"; };
+		5C8C6BB0044062A902DF584C8E74B6FD /* Pods_iOSCustomTransitions_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSCustomTransitions_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A455BD742E96752033512A552A2C849 /* Pods-iOSCustomTransitions_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iOSCustomTransitions_Example-Info.plist"; sourceTree = "<group>"; };
+		6A86C424BBD27D246C61CD183F1A77E0 /* Pods-iOSCustomTransitions_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOSCustomTransitions_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6ECB98736470E9532935E6765BCFCBF3 /* Pods-iOSCustomTransitions_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iOSCustomTransitions_Example.modulemap"; sourceTree = "<group>"; };
+		7368751FFF6685C260ADC8670AB728A5 /* iOSCustomTransitions-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "iOSCustomTransitions-Info.plist"; sourceTree = "<group>"; };
+		73E2CD4F07EFD674C2F34E581AA526E5 /* Pods-iOSCustomTransitions_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iOSCustomTransitions_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		79AA9B854F9F21BEB080C29C8A54424F /* iOSCustomTransitions.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iOSCustomTransitions.xcconfig; sourceTree = "<group>"; };
+		7DFDCD1E41C2C8130F1CAFEA86EEEDBF /* iOSCustomTransitions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iOSCustomTransitions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E349B6628B5E308D7E30DF9284BB600 /* Pods-iOSCustomTransitions_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iOSCustomTransitions_Tests-dummy.m"; sourceTree = "<group>"; };
+		8764E5F54E949421BBA4B69BC764792B /* Pods-iOSCustomTransitions_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iOSCustomTransitions_Tests-Info.plist"; sourceTree = "<group>"; };
+		879D511822DBE71300F6C03A /* BubbleDismissAnimatorController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BubbleDismissAnimatorController.swift; path = iOSCustomTransitions/Classes/BubbleDismissAnimatorController.swift; sourceTree = "<group>"; };
+		879D511922DBE71300F6C03A /* BubblePresentAnimatorController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BubblePresentAnimatorController.swift; path = iOSCustomTransitions/Classes/BubblePresentAnimatorController.swift; sourceTree = "<group>"; };
+		879D511A22DBE71300F6C03A /* ZoomingDismissAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ZoomingDismissAnimator.swift; path = iOSCustomTransitions/Classes/ZoomingDismissAnimator.swift; sourceTree = "<group>"; };
+		879D511B22DBE71300F6C03A /* ZoomingTransitionStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ZoomingTransitionStyle.swift; path = iOSCustomTransitions/Classes/ZoomingTransitionStyle.swift; sourceTree = "<group>"; };
+		879D511C22DBE71300F6C03A /* ZoomingPresentAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ZoomingPresentAnimator.swift; path = iOSCustomTransitions/Classes/ZoomingPresentAnimator.swift; sourceTree = "<group>"; };
+		8EB8A6C6232E3DC4A825F49CD3DA80F8 /* iOSCustomTransitions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "iOSCustomTransitions-dummy.m"; sourceTree = "<group>"; };
+		94ED212664AF67B02F5CE75D55277A31 /* Pods-iOSCustomTransitions_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iOSCustomTransitions_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9A083D2D4B78E56640D9F5420D5369EC /* Pods-iOSCustomTransitions_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iOSCustomTransitions_Tests-umbrella.h"; sourceTree = "<group>"; };
+		9D3EB127F1E5CEE1AA6A90BF5EBE4C9A /* iOSCustomTransitions.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = iOSCustomTransitions.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2654CF5EBC04F4C686FC19725413F36 /* iOSCustomTransitions-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iOSCustomTransitions-umbrella.h"; sourceTree = "<group>"; };
+		A9ABABE64868A4F1E43403F8223CB5DC /* Pods-iOSCustomTransitions_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iOSCustomTransitions_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		AA20BC03C3C5CBF1C8298B545EC9FEA3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B15AD92D28369FAFC66D5EC479D5E270 /* Pods-iOSCustomTransitions_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOSCustomTransitions_Example-frameworks.sh"; sourceTree = "<group>"; };
+		C0981D2D4777AB4BA27BF464D8E99926 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		C29F7A6DE6A436383B9F211F54562DB9 /* Pods-iOSCustomTransitions_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iOSCustomTransitions_Example-dummy.m"; sourceTree = "<group>"; };
+		CB10E15C4396DBFA85A835C952093DCB /* Pods-iOSCustomTransitions_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iOSCustomTransitions_Tests.modulemap"; sourceTree = "<group>"; };
+		D554677CF4A42F0B0D86D36F00E8D88D /* Pods-iOSCustomTransitions_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iOSCustomTransitions_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F8E170EC038EFD62513FC5886A9F92F9 /* Pods-iOSCustomTransitions_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOSCustomTransitions_Example.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A2B5C2E35CCB1F1C97B21C4C9BA55FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FA08441E127FFE78428581C96D0ACA2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A082E14986E8675004DEBC2B72CFFD9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE34BA22BAB9BB31535C5397B8CBF563 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C81CAA991B5479B77D1136C307346747 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6358D9EC0E9258AC1EB4D324780B1A1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D8DBDFF0F9652AEC4AB44FE1B632D8A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5D1A6F70795584751A83146B941DA7C0 /* iOSCustomTransitions */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		2A5BCC4B967F395F1EE44164EB32B763 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7DFDCD1E41C2C8130F1CAFEA86EEEDBF /* iOSCustomTransitions.framework */,
+				0F4A89720286680616C2F952FA7E452C /* Pods_iOSCustomTransitions_Example.framework */,
+				5C8C6BB0044062A902DF584C8E74B6FD /* Pods_iOSCustomTransitions_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43DD30F5B04B6C09C885BA056711CBBF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCFB962EDBB1B414D1FB2F50A2846F0A /* Pods-iOSCustomTransitions_Example */,
+				BB87EC60E499FB7E0A84F4E04A52212C /* Pods-iOSCustomTransitions_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5D1A6F70795584751A83146B941DA7C0 /* iOSCustomTransitions */ = {
+			isa = PBXGroup;
+			children = (
+				879D511822DBE71300F6C03A /* BubbleDismissAnimatorController.swift */,
+				879D511922DBE71300F6C03A /* BubblePresentAnimatorController.swift */,
+				879D511A22DBE71300F6C03A /* ZoomingDismissAnimator.swift */,
+				879D511C22DBE71300F6C03A /* ZoomingPresentAnimator.swift */,
+				879D511B22DBE71300F6C03A /* ZoomingTransitionStyle.swift */,
+				997CE80F8C30B67B42DEAB391207DB22 /* Pod */,
+				A9AC38FEDF2AFC7F065EC8B18AF80BD8 /* Support Files */,
+			);
+			name = iOSCustomTransitions;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		997CE80F8C30B67B42DEAB391207DB22 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				9D3EB127F1E5CEE1AA6A90BF5EBE4C9A /* iOSCustomTransitions.podspec */,
+				C0981D2D4777AB4BA27BF464D8E99926 /* LICENSE */,
+				AA20BC03C3C5CBF1C8298B545EC9FEA3 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		A9AC38FEDF2AFC7F065EC8B18AF80BD8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				51F1590A459A9EACCCED47B53EF5B1D5 /* iOSCustomTransitions.modulemap */,
+				79AA9B854F9F21BEB080C29C8A54424F /* iOSCustomTransitions.xcconfig */,
+				8EB8A6C6232E3DC4A825F49CD3DA80F8 /* iOSCustomTransitions-dummy.m */,
+				7368751FFF6685C260ADC8670AB728A5 /* iOSCustomTransitions-Info.plist */,
+				4D5223D78CE51E285AF2BA38EF192530 /* iOSCustomTransitions-prefix.pch */,
+				A2654CF5EBC04F4C686FC19725413F36 /* iOSCustomTransitions-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/iOSCustomTransitions";
+			sourceTree = "<group>";
+		};
+		BB87EC60E499FB7E0A84F4E04A52212C /* Pods-iOSCustomTransitions_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CB10E15C4396DBFA85A835C952093DCB /* Pods-iOSCustomTransitions_Tests.modulemap */,
+				94ED212664AF67B02F5CE75D55277A31 /* Pods-iOSCustomTransitions_Tests-acknowledgements.markdown */,
+				A9ABABE64868A4F1E43403F8223CB5DC /* Pods-iOSCustomTransitions_Tests-acknowledgements.plist */,
+				7E349B6628B5E308D7E30DF9284BB600 /* Pods-iOSCustomTransitions_Tests-dummy.m */,
+				8764E5F54E949421BBA4B69BC764792B /* Pods-iOSCustomTransitions_Tests-Info.plist */,
+				9A083D2D4B78E56640D9F5420D5369EC /* Pods-iOSCustomTransitions_Tests-umbrella.h */,
+				15D256043C5E09984253DFCB1EAD21FF /* Pods-iOSCustomTransitions_Tests.debug.xcconfig */,
+				6A86C424BBD27D246C61CD183F1A77E0 /* Pods-iOSCustomTransitions_Tests.release.xcconfig */,
+			);
+			name = "Pods-iOSCustomTransitions_Tests";
+			path = "Target Support Files/Pods-iOSCustomTransitions_Tests";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CCFB962EDBB1B414D1FB2F50A2846F0A /* Pods-iOSCustomTransitions_Example */ = {
+			isa = PBXGroup;
+			children = (
+				6ECB98736470E9532935E6765BCFCBF3 /* Pods-iOSCustomTransitions_Example.modulemap */,
+				D554677CF4A42F0B0D86D36F00E8D88D /* Pods-iOSCustomTransitions_Example-acknowledgements.markdown */,
+				73E2CD4F07EFD674C2F34E581AA526E5 /* Pods-iOSCustomTransitions_Example-acknowledgements.plist */,
+				C29F7A6DE6A436383B9F211F54562DB9 /* Pods-iOSCustomTransitions_Example-dummy.m */,
+				B15AD92D28369FAFC66D5EC479D5E270 /* Pods-iOSCustomTransitions_Example-frameworks.sh */,
+				6A455BD742E96752033512A552A2C849 /* Pods-iOSCustomTransitions_Example-Info.plist */,
+				0A60D240881E3917CA42EF9E53FF7DF5 /* Pods-iOSCustomTransitions_Example-umbrella.h */,
+				42F5DC93D149F3C4EB624BCC174911CC /* Pods-iOSCustomTransitions_Example.debug.xcconfig */,
+				F8E170EC038EFD62513FC5886A9F92F9 /* Pods-iOSCustomTransitions_Example.release.xcconfig */,
+			);
+			name = "Pods-iOSCustomTransitions_Example";
+			path = "Target Support Files/Pods-iOSCustomTransitions_Example";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1D8DBDFF0F9652AEC4AB44FE1B632D8A /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				2A5BCC4B967F395F1EE44164EB32B763 /* Products */,
+				43DD30F5B04B6C09C885BA056711CBBF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		66F5CBEB1DD04FB9955AB5E9D76648FF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				219074D0A78F12DD6CAB55CD2C5BD025 /* Pods-iOSCustomTransitions_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80B492A919DEFACCB1FDD2A3B56DA424 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C3EA84430E2101C5387BF933DCA18CC /* iOSCustomTransitions-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E75FC6D529C36D5AADEB3FDF2228A83B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D95B6650459EE055F9DC0C5B736F4B9 /* Pods-iOSCustomTransitions_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0F0D310BB905DC6A9211C8F654CC742A /* iOSCustomTransitions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71E73756F4D556DD7C4AF7865D813116 /* Build configuration list for PBXNativeTarget "iOSCustomTransitions" */;
+			buildPhases = (
+				80B492A919DEFACCB1FDD2A3B56DA424 /* Headers */,
+				ACAC8B9106A6AF4C4F68265D77355343 /* Sources */,
+				A082E14986E8675004DEBC2B72CFFD9C /* Frameworks */,
+				E4D4DE852846FB66683B9CAD0B68D3E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSCustomTransitions;
+			productName = iOSCustomTransitions;
+			productReference = 7DFDCD1E41C2C8130F1CAFEA86EEEDBF /* iOSCustomTransitions.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		51D690D55008A0C55737FB75D0481528 /* Pods-iOSCustomTransitions_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0E31E3CC78D3DBAB989FE8A31EF76BF /* Build configuration list for PBXNativeTarget "Pods-iOSCustomTransitions_Example" */;
+			buildPhases = (
+				E75FC6D529C36D5AADEB3FDF2228A83B /* Headers */,
+				F1D3F6D669E838F32D679C88AC8988ED /* Sources */,
+				1A2B5C2E35CCB1F1C97B21C4C9BA55FA /* Frameworks */,
+				0773C52B576CAF2FD42414049677EE08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4ABC8F32A52E03375BC52BEEEF8ED641 /* PBXTargetDependency */,
+			);
+			name = "Pods-iOSCustomTransitions_Example";
+			productName = "Pods-iOSCustomTransitions_Example";
+			productReference = 0F4A89720286680616C2F952FA7E452C /* Pods_iOSCustomTransitions_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B1DA55524680A52FBDC987F8FE616898 /* Pods-iOSCustomTransitions_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68EEBF2BC202C7EDF52929A091BCA204 /* Build configuration list for PBXNativeTarget "Pods-iOSCustomTransitions_Tests" */;
+			buildPhases = (
+				66F5CBEB1DD04FB9955AB5E9D76648FF /* Headers */,
+				A6FE3C81D80584ED4B9372075F00C2A8 /* Sources */,
+				C81CAA991B5479B77D1136C307346747 /* Frameworks */,
+				4F789FDA63BEE76202796DE307333D88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44C7C606018EE8DA225738086BA389B2 /* PBXTargetDependency */,
+			);
+			name = "Pods-iOSCustomTransitions_Tests";
+			productName = "Pods-iOSCustomTransitions_Tests";
+			productReference = 5C8C6BB0044062A902DF584C8E74B6FD /* Pods_iOSCustomTransitions_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				TargetAttributes = {
+					0F0D310BB905DC6A9211C8F654CC742A = {
+						LastSwiftMigration = 1020;
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 2A5BCC4B967F395F1EE44164EB32B763 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F0D310BB905DC6A9211C8F654CC742A /* iOSCustomTransitions */,
+				51D690D55008A0C55737FB75D0481528 /* Pods-iOSCustomTransitions_Example */,
+				B1DA55524680A52FBDC987F8FE616898 /* Pods-iOSCustomTransitions_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0773C52B576CAF2FD42414049677EE08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F789FDA63BEE76202796DE307333D88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4D4DE852846FB66683B9CAD0B68D3E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6FE3C81D80584ED4B9372075F00C2A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE0DE0466F82C0DCF1CC4A33B71E8225 /* Pods-iOSCustomTransitions_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACAC8B9106A6AF4C4F68265D77355343 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DFADB6F6D9AE08DC26D2E64235E2291 /* iOSCustomTransitions-dummy.m in Sources */,
+				879D512022DBE71300F6C03A /* ZoomingTransitionStyle.swift in Sources */,
+				879D511F22DBE71300F6C03A /* ZoomingDismissAnimator.swift in Sources */,
+				879D511D22DBE71300F6C03A /* BubbleDismissAnimatorController.swift in Sources */,
+				879D512122DBE71300F6C03A /* ZoomingPresentAnimator.swift in Sources */,
+				879D511E22DBE71300F6C03A /* BubblePresentAnimatorController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1D3F6D669E838F32D679C88AC8988ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61C6B39710747F976C9678D5FF61A899 /* Pods-iOSCustomTransitions_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		44C7C606018EE8DA225738086BA389B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-iOSCustomTransitions_Example";
+			target = 51D690D55008A0C55737FB75D0481528 /* Pods-iOSCustomTransitions_Example */;
+			targetProxy = D74AB7AB93613F9D816C0B1FB15486AD /* PBXContainerItemProxy */;
+		};
+		4ABC8F32A52E03375BC52BEEEF8ED641 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = iOSCustomTransitions;
+			target = 0F0D310BB905DC6A9211C8F654CC742A /* iOSCustomTransitions */;
+			targetProxy = 610549840E9E2B033FD50044E169A5FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		113C29C226457066AFE8B85855671C8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8E170EC038EFD62513FC5886A9F92F9 /* Pods-iOSCustomTransitions_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-iOSCustomTransitions_Example/Pods-iOSCustomTransitions_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iOSCustomTransitions_Example/Pods-iOSCustomTransitions_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		45E76F51F4F61CBA89CB004F9191534A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A86C424BBD27D246C61CD183F1A77E0 /* Pods-iOSCustomTransitions_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-iOSCustomTransitions_Tests/Pods-iOSCustomTransitions_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iOSCustomTransitions_Tests/Pods-iOSCustomTransitions_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5D7EFAB482B283FDAE6893920BFCE0B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15D256043C5E09984253DFCB1EAD21FF /* Pods-iOSCustomTransitions_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-iOSCustomTransitions_Tests/Pods-iOSCustomTransitions_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iOSCustomTransitions_Tests/Pods-iOSCustomTransitions_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8100C3466F9EC9F0DF0DAD1D0718473A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79AA9B854F9F21BEB080C29C8A54424F /* iOSCustomTransitions.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/iOSCustomTransitions/iOSCustomTransitions-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/iOSCustomTransitions/iOSCustomTransitions-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/iOSCustomTransitions/iOSCustomTransitions.modulemap";
+				PRODUCT_MODULE_NAME = iOSCustomTransitions;
+				PRODUCT_NAME = iOSCustomTransitions;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B7BA8EBF4845D61A41A6F6FE862928AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79AA9B854F9F21BEB080C29C8A54424F /* iOSCustomTransitions.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/iOSCustomTransitions/iOSCustomTransitions-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/iOSCustomTransitions/iOSCustomTransitions-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/iOSCustomTransitions/iOSCustomTransitions.modulemap";
+				PRODUCT_MODULE_NAME = iOSCustomTransitions;
+				PRODUCT_NAME = iOSCustomTransitions;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		FDD27A0E01F60BCD78794FF7E9E73201 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42F5DC93D149F3C4EB624BCC174911CC /* Pods-iOSCustomTransitions_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-iOSCustomTransitions_Example/Pods-iOSCustomTransitions_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iOSCustomTransitions_Example/Pods-iOSCustomTransitions_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68EEBF2BC202C7EDF52929A091BCA204 /* Build configuration list for PBXNativeTarget "Pods-iOSCustomTransitions_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D7EFAB482B283FDAE6893920BFCE0B7 /* Debug */,
+				45E76F51F4F61CBA89CB004F9191534A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71E73756F4D556DD7C4AF7865D813116 /* Build configuration list for PBXNativeTarget "iOSCustomTransitions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8100C3466F9EC9F0DF0DAD1D0718473A /* Debug */,
+				B7BA8EBF4845D61A41A6F6FE862928AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0E31E3CC78D3DBAB989FE8A31EF76BF /* Build configuration list for PBXNativeTarget "Pods-iOSCustomTransitions_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDD27A0E01F60BCD78794FF7E9E73201 /* Debug */,
+				113C29C226457066AFE8B85855671C8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

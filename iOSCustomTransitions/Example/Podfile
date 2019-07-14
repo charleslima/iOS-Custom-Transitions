@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'iOSCustomTransitions_Example' do
+  pod 'iOSCustomTransitions', :path => '../'
+
+  target 'iOSCustomTransitions_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

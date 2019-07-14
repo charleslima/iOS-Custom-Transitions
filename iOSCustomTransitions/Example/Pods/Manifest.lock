@@ -1,0 +1,16 @@
+PODS:
+  - iOSCustomTransitions (0.1.0)
+
+DEPENDENCIES:
+  - iOSCustomTransitions (from `../`)
+
+EXTERNAL SOURCES:
+  iOSCustomTransitions:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  iOSCustomTransitions: cc60e950f0b02365bca7e22ec65a2dc9e3a46313
+
+PODFILE CHECKSUM: 912ff3baeefd98e60d918a71f962062a61975cb3
+
+COCOAPODS: 1.6.1

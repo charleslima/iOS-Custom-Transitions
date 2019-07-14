@@ -1,0 +1,22 @@
+{
+  "name": "iOSCustomTransitions",
+  "version": "0.1.0",
+  "summary": "A short description of iOSCustomTransitions.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/charleslima/iOSCustomTransitions",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "charleslima": "jlima.charles@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/charleslima/iOSCustomTransitions.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "iOSCustomTransitions/Classes/**/*"
+}
