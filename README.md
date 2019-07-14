@@ -27,11 +27,11 @@ extension MyViewController: UIViewControllerTransitioningDelegate {
 
     func animationController(forPresented presented: UIViewController, presenting: UIViewController, source: UIViewController) -> UIViewControllerAnimatedTransitioning? {
         return ZoomingPresentAnimator(originFrame: self.cardButton.frame, transitionStyle: .mixed, originViewSnapshot: self.cardButton.snapshotView(afterScreenUpdates: true))
-        }
+    }
 
     func animationController(forDismissed dismissed: UIViewController) -> UIViewControllerAnimatedTransitioning? {
         return ZoomingDismissAnimator(destinationFrame: self.cardButton.frame, transitionStyle: .mixed, destinationViewSnapshot: self.cardButton.snapshotView(afterScreenUpdates: false))
-        }
+    }
 }
 ```
 
