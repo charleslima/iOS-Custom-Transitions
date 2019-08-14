@@ -1,5 +1,7 @@
 # iOSCustomTransitions
 
+![Screenshot](https://github.com/charleslima/iOS-Custom-Transitions/blob/master/iOSCustomTransitions/iOSCustomTransitions/Assets/animationExample.gif)
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
