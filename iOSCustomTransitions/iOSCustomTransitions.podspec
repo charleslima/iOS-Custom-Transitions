@@ -32,6 +32,8 @@ iOSCustomTransitions provides two beautiful customized UIViewController transiti
 
   s.source_files = 'iOSCustomTransitions/Classes/**/*'
   
+  s.swift_version = '4.0'
+
   # s.resource_bundles = {
   #   'iOSCustomTransitions' => ['iOSCustomTransitions/Assets/*.png']
   # }
