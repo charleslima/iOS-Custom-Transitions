@@ -25,7 +25,7 @@ iOSCustomTransitions provides two beautiful customized UIViewController transiti
   # s.screenshots     = 'https://github.com/charleslima/iOS-Custom-Transitions/blob/master/iOSCustomTransitions/iOSCustomTransitions/Assets/animationExample.gif'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'charleslima' => 'jlima.charles@gmail.com' }
-  s.source           = { :git => 'https://github.com/charleslima/iOSCustomTransitions.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/charleslima/iOS-Custom-Transitions', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
