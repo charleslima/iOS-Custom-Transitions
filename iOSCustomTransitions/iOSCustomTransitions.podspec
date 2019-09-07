@@ -30,7 +30,7 @@ iOSCustomTransitions provides two beautiful customized UIViewController transiti
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'iOSCustomTransitions/Classes/*.{h,m,swift}'
+  s.source_files = 'iOSCustomTransitions/iOSCustomTransitions/Classes/*.{h,m,swift}'
   
   s.swift_version = '4.0'
 
